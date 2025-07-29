@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Expense</title>
+</head>
+<body>
+    <h2>Add New Expense</h2>
+    <form method="POST" action="/add">
+        Amount (₹): <input type="number" name="amount" step="0.01" required><br><br>
+        Category: <input type="text" name="category" required><br><br>
+        Note: <input type="text" name="note"><br><br>
+        <button type="submit">Add Expense</button>
+    </form>
+    <br>
+    <a href="/view">📄 View Expenses</a> | <a href="/total">💰 Show Total</a>
+</body>
+</html>
